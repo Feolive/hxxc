@@ -21,6 +21,7 @@ public class EmployeeResumeInfoExample  extends PageBase implements IViewObjectE
     /**** New added begin ****/
     public List<Object> getParameters() {
     	List<Object> params = new ArrayList<Object>();
+    	
 		for(Criteria cr : oredCriteria){
 			for(Criterion crti : cr.getAllCriteria()){
 				if(crti.getValue()!=null){
