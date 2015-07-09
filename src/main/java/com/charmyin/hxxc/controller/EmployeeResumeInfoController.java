@@ -27,7 +27,7 @@ import com.charmyin.hxxc.vo.EmployeeResumeInfoExample.Criteria;
 @Controller
 @RequestMapping("/hxxc/employeeResumeInfo")
 public class EmployeeResumeInfoController {
-	
+	//T
  
 	@Resource
 	EmployeeResumeInfoService employeeResumeInfoService;
